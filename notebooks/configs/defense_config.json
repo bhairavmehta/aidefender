@@ -1,0 +1,21 @@
+{
+    "art.defences": {
+        "preprocessor":{
+            "SpatialSmoothing":{
+                "window_size": [2,3]
+            },
+            "FeatureSqueezing":{
+                "bit_depth": [2,3],
+                "clip_values": [(0,1)]
+            }
+        }   
+    },
+    "aidefender.defenses":{
+        "bart": {
+            "BaRT":{
+                "apply_fit":[False],
+                "apply_predict":[True]
+            }
+        }
+    }
+}

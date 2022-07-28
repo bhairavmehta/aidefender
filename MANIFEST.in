@@ -1,0 +1,3 @@
+recursive-include aidefender *
+recursive-include tests *
+include *.txt

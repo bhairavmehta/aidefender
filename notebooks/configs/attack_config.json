@@ -1,0 +1,11 @@
+{
+    "fgsm":{
+        "eps": [0.1, 0.2],
+        "batch_size": [128],
+        "norm": [1, 2, "inf"]
+    },
+    "deepfool":{
+        "max_iter": [5, 10],
+        "batch_size": [128]
+    }
+}

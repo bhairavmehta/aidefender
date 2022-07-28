@@ -1,0 +1,13 @@
+apple
+avacado
+banana
+cherry
+fig
+lemon
+Lychee
+mandarin
+Negative
+pear
+potato
+strawberry
+tomato

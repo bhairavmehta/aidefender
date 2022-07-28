@@ -1,0 +1,16 @@
+numpy==1.18.5
+tensorflow-gpu==1.15.0
+Pillow==7.2.0
+adversarial-robustness-toolbox==1.5.2
+azureml-core==1.23.0
+azureml-pipeline==1.23.0
+azureml-dataset-runtime[fuse]==1.23.0
+azureml-defaults==1.23.0
+azureml-contrib-services==1.23.0
+torch==1.8.0
+torchvision==0.9.0
+pytorch-ignite==0.4.4
+mlflow==1.15.0
+opencv-python==4.5.1.48
+albumentations==0.5.2
+tqdm==4.60.0

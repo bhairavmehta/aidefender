@@ -1,0 +1,10 @@
+__pycache__/
+.DS_Store
+*.egg-info/
+.git/
+.vscode/
+notebooks/
+artifacts/
+.pytest_cache
+tests/
+.ipynb_checkpoints/

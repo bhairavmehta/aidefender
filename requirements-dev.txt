@@ -1,0 +1,7 @@
+pytest==6.2.2
+pytest-lazy-fixture==0.6.3
+pytest-cov==2.11.1
+pylint==2.7.2
+autopep8==1.5.5
+flake8==3.8.4
+pytest-azurepipelines==0.8.0

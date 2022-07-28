@@ -1,0 +1,16 @@
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.7.9
+  tensorflow:
+    meta_graph_tags:
+    - serve
+    saved_model_dir: tfmodel
+    signature_def_key: serving_default
+signature:
+  inputs: '[{"name": "inputs", "type": "tensor", "tensor-spec": {"dtype": "uint8",
+    "shape": [-1, 224, 224, 3]}}]'
+  outputs: '[{"name": "outputs", "type": "tensor", "tensor-spec": {"dtype": "float32",
+    "shape": [-1, 2]}}]'
+utc_time_created: '2021-05-05 21:21:46.253437'
